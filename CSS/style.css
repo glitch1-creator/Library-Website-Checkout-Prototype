@@ -1,0 +1,453 @@
+body {
+  background-color: black;
+  background-image: url("../Images/originalBgImg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/*-----------Home Page CSS--------------*/
+/*-----------Home Page CSS--------------*/
+/*-----------Home Page CSS--------------*/
+/*-----------Home Page CSS--------------*/
+
+.logo {
+  text-align: left;
+  color: blue;
+}
+
+.bookContainer {
+  color: #fff;
+  display: flex;
+  gap: 20px;
+  margin: auto;
+  width: 98%;
+  justify-content: space-between;
+}
+
+.LsideBooks,
+.RsideBooks {
+  flex: 0.3;
+}
+
+.LsideBooks {
+  justify-content: space-around;
+  margin-left: 2%;
+}
+
+.bookContainer button {
+  background-color: #8585ed;
+  color: #fff;
+}
+
+.text-With-Nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto;
+  transform: translateY(60px);
+}
+
+.text-With-Nav p {
+  margin: 0;
+  font-size: 9px;
+  color: #8585ed;
+}
+
+.text-With-Nav h1 {
+  margin: 0;
+  font-size: 3vw;
+}
+
+.highlighted {
+  color: #8585ed;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 1%;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.active-link {
+  text-decoration: underline;
+  color: #8585ed;
+  font-weight: bold;
+}
+
+.active-link:hover {
+  color: #fff;
+}
+
+.RsideBooks {
+  justify-content: space-around;
+  margin-right: 2%;
+}
+
+/* BOOK 1'S STYLING */
+.trmib {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.trmib-img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+}
+
+.trmibDetails {
+  justify-items: center;
+  text-align: center;
+}
+
+.trmibDetails button {
+  display: block;
+  margin: auto;
+}
+
+/* BOOK 2 STYLING */
+.richDad {
+  display: flex;
+  margin-top: 5%;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.richDad-img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+}
+
+.richDadDetails {
+  justify-items: center;
+  text-align: center;
+}
+
+.richDadDetails button {
+  display: block;
+  margin: auto;
+}
+
+/* BOOK 3 CSS */
+.hemAndHaw {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.hew-img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+}
+
+.WhoMovedMyChess-Details {
+  justify-items: center;
+  text-align: center;
+}
+
+.WhoMovedMyChess-Details button {
+  display: block;
+  margin: auto;
+}
+
+/* BOOK 4 CSS */
+.AmanThinketh {
+  display: flex;
+  margin-top: 5%;
+  align-items: flex-end;
+}
+
+.AmanThinketh-img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+}
+
+.AsManThinketh-Details {
+  justify-items: center;
+  text-align: center;
+}
+
+.AsManThinketh-Details button {
+  display: block;
+  margin: auto;
+}
+
+/*-----------Pay Page CSS--------------*/
+/*-----------Pay Page CSS--------------*/
+/*-----------Pay Page CSS--------------*/
+.card-details-container {
+  display: grid;
+  gap: 10px;
+  width: 60%;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin: auto;
+  border: 2px solid #8585ed;
+  box-shadow: 0 0 10px #8585ed;
+}
+
+.card-details-container #footer-text {
+  color: #fff;
+  text-align: center;
+}
+
+.card-type {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  border: 2px solid #8585ed;
+}
+
+.card-type img {
+  max-width: 20%;
+}
+
+.card-info {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  border: 2px solid #8585ed;
+}
+
+.card-info input {
+  background-color: #000;
+  border-radius: 10px;
+  width: 80%;
+  color: #fff;
+}
+
+#cardNoDigits::placeholder {
+  color: #888;
+}
+
+.expDate {
+  display: grid;
+  border: 2px solid #8585ed;
+}
+
+.expDate button {
+  color: #fff;
+  background-color: #8585ed;
+}
+
+/* ----------------SUCCESS--------------- */
+/* ----------------SUCCESS--------------- */
+/* ----------------SUCCESS--------------- */
+/* ----------------SUCCESS--------------- */
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #8585ed;
+  border: 2px solid #8585ed;
+  box-shadow:
+    0 0 10px #8585ed,
+    0 0 20px #b761ff,
+    0 0 50px #b761ff;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 1%;
+}
+
+.circle img {
+  width: 100%;
+  height: auto;
+}
+
+.text-With-Nav-success-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  width: 50%;
+  justify-content: center;
+  margin: 0 auto;
+  transform: translateY(60px);
+  position: relative;
+  top: -50px;
+}
+
+.text-With-Nav-success-page h1 {
+  font-size: 20px;
+}
+
+.order-details-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  width: 60%;
+  margin: 5% auto 2% auto;
+  justify-content: space-between;
+  border: 2px solid #8585ed;
+  box-shadow: 0 0 10px #8585ed;
+}
+
+.transaction-details h3,
+.transaction-details p {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.paid-book-img {
+  width: 100px;
+  height: 300px;
+  flex: 1;
+}
+
+.paid-book-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.transaction-details {
+  color: #fff;
+  padding-top: 1%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+
+.order-info {
+  color: #fff;
+}
+
+.home-nav {
+  position: relative;
+  bottom: -60px;
+}
+
+/* RESPONSIVENESS MEDIA QUERIES */
+
+@media (max-width: 768px) {
+  .bookContainer {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .LsideBooks,
+  .RsideBooks {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .trmib,
+  .richDad,
+  .hemAndHaw,
+  .AmanThinketh {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-With-Nav {
+    position: static;
+  }
+
+  img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+  }
+}
+
+@media (max-width: 968px) {
+  .bookContainer {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .LsideBooks,
+  .RsideBooks {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .trmib,
+  .richDad,
+  .hemAndHaw,
+  .AmanThinketh {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-With-Nav {
+    position: static;
+    margin-bottom: 20%;
+  }
+
+  .text-With-Nav h1 {
+    font-size: 5.5vw;
+  }
+
+  img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+  }
+}
+
+@media (max-width: 968px) {
+  .card-details-container {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+}
+
+@media (min-width: 1080px) {
+  .card-details-container {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+}
+
+@media (min-width: 708px) {
+  .card-details-container {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 968px) {
+  .order-details-container {
+    align-items: center;
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .paid-book-img {
+    height: 300px;
+  }
+}
